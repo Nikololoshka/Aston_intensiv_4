@@ -7,7 +7,9 @@ import androidx.recyclerview.widget.ListAdapter
 import dev.aston.intensiv.nikolay.databinding.ItemUserBinding
 import dev.aston.intensiv.nikolay.second.model.User
 
-class UserAdapter : ListAdapter<User, UserViewHolder>(
+class UserAdapter(
+    private val onUserClicked: (item: User) -> Unit
+) : ListAdapter<User, UserViewHolder>(
     AsyncDifferConfig
         .Builder(UserDiffUtil)
         .build()
@@ -22,6 +24,6 @@ class UserAdapter : ListAdapter<User, UserViewHolder>(
     }
 
     private fun onItemClicked(position: Int) {
-
+        onUserClicked(getItem(position))
     }
 }
