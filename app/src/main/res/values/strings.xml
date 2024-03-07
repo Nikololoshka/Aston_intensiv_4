@@ -16,4 +16,8 @@
     <string name="hint_phone_number">Phone number</string>
     <string name="photo_url">Photo url</string>
     <string name="save_user">Save user</string>
+    <string name="fragment_d">Fragment D</string>
+    <string name="fragment_c">Fragment C</string>
+    <string name="fragment_b">Fragment B</string>
+    <string name="fragment_a">Fragment A</string>
 </resources>
