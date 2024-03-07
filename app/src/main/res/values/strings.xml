@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Aston_intensiv_4</string>
+    <string name="show_fragment_b">Show fragment B</string>
+    <string name="first_task">First task</string>
+    <string name="second_task">Second task</string>
+    <string name="back">Back</string>
+    <string name="show_fragment_c">Show fragment C</string>
+    <string name="show_fragment_a">Show fragment a</string>
+    <string name="show_fragment_d">Show fragment d</string>
+    <string name="user_icon">User icon</string>
+    <string name="user_fullname">%1$s %2$s</string>
+    <string name="user_list">User list</string>
+    <string name="contact_editor">User editor</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_surname">Suranme</string>
+    <string name="hint_phone_number">Phone number</string>
+    <string name="photo_url">Photo url</string>
+    <string name="save_user">Save user</string>
+    <string name="fragment_d">Fragment D</string>
+    <string name="fragment_c">Fragment C</string>
+    <string name="fragment_b">Fragment B</string>
+    <string name="fragment_a">Fragment A</string>
 </resources>
